@@ -1,0 +1,102 @@
+/*etiquetas*/
+body{
+    background-color: antiquewhite;
+    margin: 20px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 10px 10px 10px;
+    transition: all .5s;
+}
+h1{
+     font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(253, 154, 32);
+    border-radius: 500px;
+}
+h2{
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(121, 210, 230);
+    border-radius: 20px;
+}
+h4{
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(253, 154, 32);
+    border-radius: 500px;
+}
+p{
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+h3{
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+    background-color: rgb(253, 154, 32);
+    border-radius: 500px;
+}
+/*clases*/
+.macarena{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.imagenlogo{
+    width: 1475px;
+    height: 300px;
+    object-fit: cover;
+}
+.productos{
+    border-radius: 10px;
+    background-color: rgb(121, 210, 230);
+}
+.productos:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.20); 
+}
+.informaciondelproducto{
+    padding: 15px 30px;
+}
+.productos:hover img{
+    transform: scale(1.2);
+}
+.productos figure{
+    overflow: hidden;
+}
+
+.precio{
+    font-size: 18px;
+    font-weight: 900;
+}
+.boton{
+    border: none;
+    width: 400px;
+    height: 100px;
+    font-size: 60px;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(34, 18, 255);
+    border-radius: 20px;
+}
+.redes{
+    background-color: rgb(54, 54, 255);
+}
+.imgred{
+    width: 600px;
+    height: 300px;
+}
+.imgsociales{
+    width: 280px;
+    height: 300px;
+}
